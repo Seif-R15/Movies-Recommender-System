@@ -15,3 +15,19 @@ To run this code, you will need the following:
 You can install the required packages using the following command:
 
 pip install -r requirements.txt
+
+# Usage
+
+To train the model, simply run the train.py script:
+python train.py
+The script will download the IMDB dataset, preprocess the data using BERT, and train the sentiment analysis model using one-cycle learning rate policy. The trained model will be saved in the model directory.
+
+To test the model, you can run the predict.py script and provide a sample text:
+python predict.py "This movie was great!"
+The script will load the trained model and predict the sentiment of the given text.
+
+# License
+This code is licensed under the MIT License. You are free to use, modify, and distribute this code for any purpose, as long as you include the original copyright notice and the license terms.
+
+# Acknowledgements
+The code in this repository is based on the ktrain tutorial by Arun S. Maiya. The IMDB dataset is provided by Andrew Maas.
