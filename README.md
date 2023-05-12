@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 To train the model, simply run the train.py script:
 
-python train.py
+To run the script, type `python train.py` in the command line.
 
 The script will download the IMDB dataset, preprocess the data using BERT, and train the sentiment analysis model using one-cycle learning rate policy. The trained model will be saved in the model directory.
 
