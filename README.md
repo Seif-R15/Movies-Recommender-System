@@ -1,6 +1,8 @@
 # Movies-Recommender-System
 # Sentiment Analysis using BERT on IMDB Dataset
 
+![example image app](stars-movies-1200x670-1.jpg)
+
 This repository contains code for training a sentiment analysis model using BERT on the IMDB dataset. The code is written in Python and uses the ktrain library, which provides a simple and intuitive interface for training deep learning models.
 
 # Requirements
